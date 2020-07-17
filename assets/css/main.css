@@ -8,6 +8,14 @@
 	font-family:'VCR-OSD-MONO';
 	src:url('../fonts/VCR-OSD-MONO/VCR_OSD_MONO.ttf') format('truetype')
 }
+@font-face{
+	font-family:'BARCODE';
+	src:url('../fonts/barcode-font/barcode-font.ttf') format('truetype')
+}
+@font-face{
+	font-family:'AlienEncounters';
+	src:url('../fonts/AlienEncounters/SFAlienEncounters.ttf') format('truetype')
+}
 /*
 	Spatial by TEMPLATED
 	templated.co @templatedco
