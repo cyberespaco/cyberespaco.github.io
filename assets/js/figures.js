@@ -24,7 +24,7 @@ function set_figures() {
     shuffle(figures);
 
     for(var i=0; i<elements.length; i++) {
-        if (elements.src === "") {
+        if (elements[i].src === "") {
             elements[i].src = figures[i % figures.lenght];
         }
     }
