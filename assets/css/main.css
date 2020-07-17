@@ -12,6 +12,10 @@
 	font-family:'BARCODE';
 	src:url('../fonts/barcode-font/barcode-font.ttf') format('truetype')
 }
+@font-face{
+	font-family:'AlienEncounters';
+	src:url('../fonts/AlienEncounters/SFAlienEncounters.ttf') format('truetype')
+}
 /*
 	Spatial by TEMPLATED
 	templated.co @templatedco
