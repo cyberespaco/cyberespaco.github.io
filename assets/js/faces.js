@@ -3,7 +3,7 @@ import * as THREE from 'https://threejs.org/build/three.module.js';
 
 //import Stats from './jsm/libs/stats.module.js';
 
-import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
+// import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';
 
 var camera, scene, renderer, element; //, stats;
