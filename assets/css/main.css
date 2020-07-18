@@ -2588,6 +2588,23 @@
 		color: black;
 		font-family: 'Kredit';
 		font-weight: bolder;
+		font-size: 3.4em;
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#logo{
+			font-size: 2.9em;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#logo{
+			font-size: 2.7em;
+		}
+
 	}
 
 	#logo-footer {
