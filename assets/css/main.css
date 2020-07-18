@@ -2917,11 +2917,6 @@
 
 /* Wrapper */
 
-	body.is-touch .wrapper.style3 {
-		background-attachment: scroll;
-		background-image: url("../images/banner_small.jpg");
-	}
-
 	.wrapper {
 		padding: 6em 0 4em 0;
 	}
@@ -2968,6 +2963,11 @@
 
 			.wrapper {
 				padding: 4em 0 2em 0;
+			}
+
+			.wrapper.style3 {
+				background-attachment: scroll;
+				background-image: url("../images/banner_small.jpg");
 			}
 
 		}
@@ -3291,11 +3291,6 @@
 
 /* Banner */
 
-	body.is-touch #banner {
-		background-attachment: scroll;
-		background-image: url("../images/banner_small.jpg");
-	}
-
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
@@ -3388,6 +3383,8 @@
 
 			#banner {
 				padding: 9em 0 7em 0;
+				background-attachment: scroll;
+				background-image: url("../images/banner_small.jpg");
 			}
 
 		}
