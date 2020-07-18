@@ -2590,6 +2590,13 @@
 		font-weight: bolder;
 	}
 
+	#logo-footer {
+		font-family: 'Paskowy';
+		font-size: 1.4em;
+		text-decoration: none;
+		user-select: none;
+	}
+
 	.three-banner {
 		position: relative;
 		display: block;
