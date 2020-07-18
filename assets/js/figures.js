@@ -10,7 +10,7 @@ function shuffle(array) {
 }
 
 function get_figures (n) { // -> Array
-    let figures = [];
+    var figures = [];
     for(let i=0; i<n; i++){
         let num = i.toString().padStart(2, "0");
         figures.push(`../images/vaporwave/img${num}.png`);
