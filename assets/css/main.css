@@ -2579,6 +2579,12 @@
 
 /* Section/Article */
 
+	#logo {
+		color: black;
+		font-family: 'Kredit';
+		font-weight: bolder;
+	}
+
 	.three-banner {
 		position: relative;
 		display: block;
