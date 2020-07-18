@@ -2919,6 +2919,7 @@
 
 	body.is-touch .wrapper.style3 {
 		background-attachment: scroll;
+		background-image: url("../images/banner_small.jpg");
 	}
 
 	.wrapper {
@@ -3292,6 +3293,7 @@
 
 	body.is-touch #banner {
 		background-attachment: scroll;
+		background-image: url("../images/banner_small.jpg");
 	}
 
 	#banner {
