@@ -2465,6 +2465,11 @@
 			list-style: none;
 			padding-left: 0;
 		}
+			ul.actions li a.button {
+				color: #ffffff;
+				font-family: 'VCR-OSD-MONO';
+				text-shadow: 0.2vmin 0 black, -0.2vmin 0 black, 0 0.2vmin black, 0 -0.2vmin black;
+			}
 
 			ul.actions li {
 				display: inline-block;
