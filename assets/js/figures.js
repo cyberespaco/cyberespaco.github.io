@@ -20,7 +20,7 @@ function get_figures (n) { // -> Array
 }
 
 function set_figures(n) {
-    var elements = document.getElementsByClassName("photo image");
+    var elements = document.getElementsByClassName("photo-image");
     var figures = get_figures(n);
     // Shuffles them for some randomness
     figures = shuffle(figures);
