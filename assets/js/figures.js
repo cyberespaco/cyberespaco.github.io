@@ -13,7 +13,7 @@ function get_figures (n) { // -> Array
     var figures = [];
     for(let i=0; i<n; i++){
         let num = i.toString().padStart(2, "0");
-        figures.push(`../images/vaporwave/img${num}.png`);
+        figures.push(`https://cyberespaco.github.io/assets/images/vaporwave/img${num}.png`);
         console.log(figures[i]);
     }
     return figures;
@@ -32,4 +32,4 @@ function set_figures(n) {
     }
 }
 
-set_figures();
+set_figures(N);
