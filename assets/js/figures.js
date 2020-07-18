@@ -20,13 +20,12 @@ function get_figures (n) { // -> Array
 
 function set_figures() {
     let figures = get_figures(N);
-
     // Shuffles them for some randomness
-    shuffle(figures);
-
+    figures = shuffle(figures);
+    
     for(var i=0; i<elements.length; i++) {
         if (elements[i].src === "") {
-            elements[i].src = figures[i % figures.lenght];
+            elements[i].src = figures[i % figures.length];
         }
     }
 }
