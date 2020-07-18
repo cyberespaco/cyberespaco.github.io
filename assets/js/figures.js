@@ -1,4 +1,4 @@
-var elements = document.getElementsByClassName("photo image");
+
 var N = 8;
 
 function shuffle(array) {
@@ -19,8 +19,9 @@ function get_figures (n) { // -> Array
     return figures;
 }
 
-function set_figures() {
-    let figures = get_figures(N);
+function set_figures(n) {
+    var elements = document.getElementsByClassName("photo image");
+    var figures = get_figures(n);
     // Shuffles them for some randomness
     figures = shuffle(figures);
     
