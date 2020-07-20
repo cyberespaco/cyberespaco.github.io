@@ -32,7 +32,7 @@ function set_figures(n) {
     }
 
     var courses = document.getElementsByClassName("course-image");
-    var course_figure = 'https://cyberespaco.github.io/assets/images/vaporwave/embreve.png';
+    var course_figure = 'https://cyberespaco.github.io/assets/images/embreve.png';
 
     for(var i=0; i<courses.length; i++) {
         if (courses[i].src === "") {
