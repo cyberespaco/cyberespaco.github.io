@@ -14,7 +14,6 @@ function get_photos (n) { // -> Array
     for(let i=0; i<n; i++){
         let num = i.toString().padStart(2, "0");
         figures.push(`https://cyberespaco.github.io/assets/images/vaporwave/img${num}.png`);
-        console.log(figures[i]);
     }
     return figures;
 }
