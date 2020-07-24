@@ -1,5 +1,5 @@
 
-var N = 8;
+var N = 9;
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
