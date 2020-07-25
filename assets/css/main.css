@@ -2612,6 +2612,7 @@
 		font-family: 'Kredit';
 		font-weight: bolder;
 		font-size: 3.4em;
+		text-shadow: 0.3vmin 0 rgba(0, 0, 0, 0.33), -0.3vmin 0 rgba(0, 0, 0, 0.33);
 	}
 
 	@media screen and (max-width: 1280px) {
