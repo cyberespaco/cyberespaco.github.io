@@ -2607,6 +2607,29 @@
 
 	}
 
+	#logo-alt {
+		color: black;
+		font-family: 'Kredit';
+		font-weight: bolder;
+		font-size: 3.4em;
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#logo-alt{
+			font-size: 2.9em;
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#logo-alt{
+			font-size: 2.7em;
+		}
+
+	}
+
 	#logo-footer {
 		font-family: 'Paskowy';
 		font-size: 1.4em;
