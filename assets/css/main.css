@@ -2409,6 +2409,14 @@
 					font-size: 0.9em;
 				}
 
+			.card:first-child {
+				margin-left: 15%;
+			}
+
+			.card:last-child {
+				margin-right: 15%;
+			}
+
 		}
 
 	.image {
