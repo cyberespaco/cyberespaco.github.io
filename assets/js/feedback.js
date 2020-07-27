@@ -2,19 +2,16 @@
 **
 */
 function buildFeedback(filePath) {
-
-    let element = document.getElementById("feedback");
-
-    console.log(element);
-
-    var innerHTML = new String();
-
+    
     $.getJSON(filePath, function( array ) {
-        console.log(array);
+        
+        let element = document.getElementById("feedback");
+        let innerHTML = new String();
+        
         for (let i=0; i<array.lenght; i++) {
             let json = array[i];
     
-            innerHTML += html`
+            innerHTML += `
                 <div class="feature">
                     <div class="image rounded"><img class="photo-image"/></div>
                     <div class="content">
@@ -27,13 +24,11 @@ function buildFeedback(filePath) {
                 </div>
                 `;
         }
-    });
 
-    console.log(innerHTML);
-    
-    element.innerHTML = `
-    <div class="feature-grid">
-		${innerHTML}
-    </div>
-    `;
+        element.innerHTML = `
+            <div class="feature-grid">
+                ${innerHTML}
+            </div>
+            `;
+    });
 }
