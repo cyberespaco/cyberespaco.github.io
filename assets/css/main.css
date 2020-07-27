@@ -2321,10 +2321,13 @@
 		overflow-y: hidden;
 		white-space: nowrap;
 		align-content: center;
+		scroll-behavior: smooth;
+		
+		-ms-overflow-style: none;  /* Internet Explorer 10+ */
+		scrollbar-width: none;  /* Firefox */
 	}
-
-	.card-deck:first-child {
-		margin-left: 50%;
+	.card-deck::-webkit-scrollbar { 
+		display: none;  /* Safari and Chrome */
 	}
 
 	.card {
@@ -2341,7 +2344,11 @@
 	}
 
 	.card:first-child {
-		margin-left: ;
+		margin-left: 25%;
+	}
+
+	.card:last-child {
+		margin-right: 25%;
 	}
 
 	.card img {
