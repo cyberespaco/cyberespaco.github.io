@@ -7,7 +7,7 @@ function buildFeedback(filePath) {
         
         let element = document.getElementById("feedback");
         let innerHTML = new String();
-        
+
         for (let i=0; i<array.lenght; i++) {
             let json = array[i];
     
@@ -30,5 +30,7 @@ function buildFeedback(filePath) {
                 ${innerHTML}
             </div>
             `;
+
+        console.log(element);
     });
 }
