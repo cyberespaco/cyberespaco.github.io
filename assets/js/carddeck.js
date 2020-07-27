@@ -1,7 +1,7 @@
 function scrollToMe(element){
     let parent = element.parentNode;
     
-    parent.scrollLeft = element.offsetLeft - (0.5 * element.clientWidth );
+    parent.scrollLeft = element.offsetLeft - (0.5 * element.offsetWidth);
 }
 
 let cards = document.getElementsByClassName("card");
