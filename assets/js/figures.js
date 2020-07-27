@@ -12,7 +12,6 @@ function getPhotos(filePath, n) { // -> Array
     for(let i=0; i<n; i++){
         let num = i.toString().padStart(2, "0");
         figures.push(`${filePath}${num}.png`);
-        console.log(figures[i]);
     }
     return figures;
 }
