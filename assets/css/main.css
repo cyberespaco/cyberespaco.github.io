@@ -2315,6 +2315,60 @@
 
 /* Image */
 
+	.card-deck {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: visible;
+		overflow-y: hidden;
+		white-space: nowrap;
+		align-content: center;
+	}
+
+	.card-deck:first-child {
+		margin-left: 50%;
+	}
+
+	.card {
+		border-radius: 4px;
+		border: 0;
+		position: relative;
+		display: inline-block;
+		margin: 0 0 2em 0;
+		width: 50%;
+		border-radius: 0;
+		margin-bottom: 4em;
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+
+	.card:first-child {
+		margin-left: ;
+	}
+
+	.card img {
+		display: block;
+		width: 100%;
+		border-radius: 0;
+	}
+
+		.card h3 {
+			background-color: #fff;
+			box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
+			display: block;
+			padding: 2em 1em;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.card {
+				margin-bottom: 2em;
+			}
+
+				.card h3 {
+					padding: 1em;
+				}
+
+		}
+
 	.image {
 		border-radius: 4px;
 		border: 0;
