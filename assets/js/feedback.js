@@ -22,13 +22,13 @@ function buildFeedback(filePath) {
                         <p>${json[comment]}</p>
                     </div>
                 </div>
-                `
+                `;
         }
     });
     
-    element.innerHTML = html`
+    element.innerHTML = `
     <div class="feature-grid">
 		${innerHTML}
     </div>
-    `
+    `;
 }
