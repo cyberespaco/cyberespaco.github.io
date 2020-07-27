@@ -34,5 +34,8 @@ function buildFeedback(filePath) {
                 ${innerHTML}
             </div>
             `;
+
+        // Set Figure Placeholders.
+		setFigures("https://cyberespaco.github.io/assets/images/vaporwave/img");
     });
 }
