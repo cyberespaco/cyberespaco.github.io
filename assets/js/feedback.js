@@ -11,9 +11,13 @@ function buildFeedback(filePath) {
         for (let i=0; i<array.length; i++) {
             let json = array[i];
             
+            let src = (("img" in json) && (json["img"] !== undefined) && (json["img"] !== null))
+                        ? `src="${json['img']}"`
+                        : "";
+
             innerHTML = innerHTML + `
                 <div class="feature">
-                    <div class="image rounded"><img class="photo-image"/></div>
+                    <div class="image rounded"><img ${src} class="photo-image"/></div>
                     <div class="content">
                         <header>
                             <h4>${json["name"]}</h4>
