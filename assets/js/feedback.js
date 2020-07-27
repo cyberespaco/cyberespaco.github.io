@@ -5,9 +5,12 @@ function buildFeedback(filePath) {
 
     let element = document.getElementById("feedback");
 
+    console.log(element);
+
     var innerHTML = new String();
 
     $.getJSON(filePath, function( array ) {
+        console.log(array);
         for (let i=0; i<array.lenght; i++) {
             let json = array[i];
     
@@ -25,6 +28,8 @@ function buildFeedback(filePath) {
                 `;
         }
     });
+
+    console.log(innerHTML);
     
     element.innerHTML = `
     <div class="feature-grid">
