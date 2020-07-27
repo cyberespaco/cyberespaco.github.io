@@ -1,6 +1,4 @@
 
-var N = 9;
-
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -9,24 +7,30 @@ function shuffle(array) {
     return array;
 }
 
-function get_photos (n) { // -> Array
+function getPhotos(filePath, n) { // -> Array
     var figures = [];
     for(let i=0; i<n; i++){
         let num = i.toString().padStart(2, "0");
-        figures.push(`https://cyberespaco.github.io/assets/images/vaporwave/img${num}.png`);
+        figures.push(`${filePath}${num}.png`);
     }
     return figures;
 }
 
-function set_figures(n) {
+function setFigures(filePath) {
     var photos = document.getElementsByClassName("photo-image");
-    var figures = get_photos(n);
+    var figures = getPhotos(filePath, photos.length);
     // Shuffles them for some randomness
     figures = shuffle(figures);
     
-    for(var i=0; i<photos.length; i++) {
+    var j = 0;
+    for(let i=0; i<photos.length; i++) {
         if (photos[i].src === "") {
-            photos[i].src = figures[i % figures.length];
+            try {
+                photos[i].src = figures[j++];
+            } catch (e) {
+                j = 0;
+                photos[i].src = figures[j++];
+            }
         }
     }
 
@@ -39,5 +43,3 @@ function set_figures(n) {
         }
     }
 }
-
-set_figures(N);
