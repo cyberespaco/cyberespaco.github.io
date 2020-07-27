@@ -11,17 +11,18 @@ function buildFeedback(filePath) {
         console.log(array);
 
         for (let i=0; i<array.lenght; i++) {
-            let json = array[i];
+            console.log(array[i]);
+            var json = array[i];
             console.log(json);
             innerHTML = innerHTML + `
                 <div class="feature">
                     <div class="image rounded"><img class="photo-image"/></div>
                     <div class="content">
                         <header>
-                            <h4>${json[name]}</h4>
-                            <p>${json[caption]}</p>
+                            <h4>${json["name"]}</h4>
+                            <p>${json["caption"]}</p>
                         </header>
-                        <p>${json[comment]}</p>
+                        <p>${json["comment"]}</p>
                     </div>
                 </div>
                 `;
