@@ -8,6 +8,8 @@ function buildFeedback(filePath) {
         let element = document.getElementById("feedback");
         var innerHTML = new String();
 
+        console.log(array);
+
         for (let i=0; i<array.lenght; i++) {
             let json = array[i];
             console.log(json);

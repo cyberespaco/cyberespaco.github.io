@@ -25,7 +25,6 @@ function set_figures(n) {
     figures = shuffle(figures);
     
     for(var i=0; i<photos.length; i++) {
-        console.log('photos -',i,'-', photos[i].src);
         if (photos[i].src === "") {
             photos[i].src = figures[i % figures.length];
         }
@@ -35,7 +34,6 @@ function set_figures(n) {
     var course_figure = 'https://cyberespaco.github.io/assets/images/embreve.png';
 
     for(var i=0; i<courses.length; i++) {
-        console.log('courses -',i,'-', courses[i].src);
         if (courses[i].src === "") {
             courses[i].src = course_figure;
         }
