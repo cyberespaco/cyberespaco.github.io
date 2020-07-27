@@ -104,28 +104,7 @@
 				<h2 id="logo-alt">Feedback dos participantes</h2>
 				<p>Saiba o que falam da gente por aí</p>
 			</header>
-			<div class="feature-grid">
-				<div class="feature">
-					<div class="image rounded"><img class="photo-image"/></div>
-					<div class="content">
-						<header>
-							<h4>Cybertelespectador da UFRJ</h4>
-							<p>Feedback após a aula inaugural</p>
-						</header>
-						<p>Quem foi o genio que organizou e teve a ideia do cyberespaço a2a? FANTASTICO MUITO BOM!</p>
-					</div>
-				</div>
-				<div class="feature">
-					<div class="image rounded"><img class="photo-image"/></div>
-					<div class="content">
-						<header>
-							<h4>Cybertelespectador da UFRJ</h4>
-							<p>Feedback após a aula inaugural</p>
-						</header>
-						<p>Vocês estão fazendo um ótimo trabalho, é ótimos ver alunos se prontificando a ajudar outros
-							desta forma, parabéns!</p>
-					</div>
-				</div>
+			<div id="feedback">
 			</div>
 			<ul class="actions">
 				<li><a href="https://forms.gle/FRtF4B5nf7skRRuDA"
@@ -330,10 +309,11 @@
 	<script src="./assets/js/carddeck.js"></script>
 	<script src="./assets/js/figures.js"></script>
 	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/feedback.js"></script>
+	<script>buildFeedback("./assets/js/json/feedback.json");</script>
 	<script src="./assets/js/skel.min.js"></script>
 	<script src="./assets/js/util.js"></script>
 	<script src="./assets/js/main.js"></script>
-
 </body>
 
 </html>
