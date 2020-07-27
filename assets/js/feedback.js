@@ -6,12 +6,12 @@ function buildFeedback(filePath) {
     $.getJSON(filePath, function( array ) {
         
         let element = document.getElementById("feedback");
-        let innerHTML = new String();
+        var innerHTML = new String();
 
         for (let i=0; i<array.lenght; i++) {
             let json = array[i];
-    
-            innerHTML += `
+            console.log(json);
+            innerHTML = innerHTML + `
                 <div class="feature">
                     <div class="image rounded"><img class="photo-image"/></div>
                     <div class="content">
@@ -23,6 +23,7 @@ function buildFeedback(filePath) {
                     </div>
                 </div>
                 `;
+            console.log(innerHTML);
         }
 
         element.innerHTML = `
