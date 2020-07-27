@@ -8,12 +8,9 @@ function buildFeedback(filePath) {
         let element = document.getElementById("feedback");
         var innerHTML = new String();
 
-        console.log(array);
-
-        for (let i=0; i<array.lenght; i++) {
-            console.log(array[i]);
-            var json = array[i];
-            console.log(json);
+        for (let i=0; i<array.length; i++) {
+            let json = array[i];
+            
             innerHTML = innerHTML + `
                 <div class="feature">
                     <div class="image rounded"><img class="photo-image"/></div>
@@ -26,7 +23,6 @@ function buildFeedback(filePath) {
                     </div>
                 </div>
                 `;
-            console.log(innerHTML);
         }
 
         element.innerHTML = `
@@ -34,7 +30,5 @@ function buildFeedback(filePath) {
                 ${innerHTML}
             </div>
             `;
-
-        console.log(element);
     });
 }
