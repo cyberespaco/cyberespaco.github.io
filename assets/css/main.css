@@ -2013,7 +2013,7 @@
 		}
 
 		.feature-grid .feature {
-			display: inline-block;
+			/* display: inline-block; */
 			float: left;
 			margin-bottom: 3em;
 			width: 50%;
@@ -2572,7 +2572,7 @@
 			ul.actions li a.button {
 				color: #ffffff;
 				font-family: 'VCR-OSD-MONO';
-				text-shadow: 0.2vmin 0 black, -0.2vmin 0 black, 0 0.2vmin black, 0 -0.2vmin black;
+				/* text-shadow: 0.2vmin 0 black, -0.2vmin 0 black, 0 0.2vmin black, 0 -0.2vmin black; */
 			}
 
 			ul.actions li {
@@ -2731,6 +2731,7 @@
 
 		#logo-alt{
 			font-size: 2.7em;
+			text-shadow: none;
 		}
 
 	}
@@ -3387,7 +3388,7 @@
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 5em;
 		}
 
