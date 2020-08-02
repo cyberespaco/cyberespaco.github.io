@@ -3,7 +3,9 @@ function scrollToMe(element){
     let parent = $(element).parent()
 
     $(parent).animate({
-        scrollLeft: $(element).position().left +  $(parent).scrollLeft() - ($(parent).width() / 2)
+        scrollLeft: (
+    $(element).position().left - $(element).offset().left + $(parent).scrollLeft() - ($(parent).width() / 2)
+        )
     });
 }
 
