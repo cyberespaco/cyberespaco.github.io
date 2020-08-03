@@ -40,18 +40,8 @@
         "link" : null
     },
     {
-        "title" : "Bash",
-        "img" : "https://cyberespaco.github.io/assets/images/aula5.png",
-        "author" : "Juliana Dal Piaz",
-        "text" : "Aulas da linguagem Bash para iniciantes: atualizar sistema, baixar pacotes, instalar de um arquivo binário, encontrar padrões em pastas, mover arquivos, abrir aplicativos, alterar configurações padrões do terminal, configurações diversas.",
-        "youtube" : "https://youtu.be/6SUfiZ71F0A",
-        "github" : null,
-        "mail" : null,
-        "link" : null
-    },
-    {
         "title" : "Gestão de Código-Fonte com Git",
-        "img" : "https://cyberespaco.github.io/assets/images/aula6.png",
+        "img" : "https://cyberespaco.github.io/assets/images/aula5.png",
         "author" : "Varlen Pavani Neto",
         "text" : "Git é um sistema de controle de versões muito utilizado em desenvolvimento de software. É útil para organizar seu código, separar features e, principalmente, desenvolver em conjunto com outras pessoas! Sabe aquele projeto que você e os seus amigos tão querendo tocar desde o começo da quarentena? Com certeza o Git pode ajudar vocês com isso!",
         "youtube" : "https://www.youtube.com/watch?v=MV9X3oJeCxE",
