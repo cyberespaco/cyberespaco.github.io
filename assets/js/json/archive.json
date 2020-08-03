@@ -1,0 +1,62 @@
+[
+    {
+        "title" : "Modelando o coronavírus: Uma introdução ao p5.js",
+        "img" : "https://cyberespaco.github.io/assets/images/aula1.png",
+        "author" : "Guilherme Goldman",
+        "text" : "O objetivo dessa miniaula é construir uma simulação do espalhamento do coronavírus e a partir disso, apresentar a linguagem de programação P5js. Essa linguagem, que é baseada em Javascript, possibilita diversas soluções visuais intuitivas no front-end. Além disso, serão intoduzidos conceitos básicos de programação como: estrutura de repetição, array e orientação a objeto. Espera-se que os calouros sintam-se motivados e familirizados com os conceitos básicos de programação e quem possui mais experiência possa experimentar e testar as possibilidades que a linguagem oferece.",
+        "youtube" : "https://youtu.be/sJMQr2whPgw",
+        "github" : null,
+        "mail" : null,
+        "link" : null
+    },
+    {
+        "title" : "Introdução aos Chatbots: Do Hello World a Alexa",
+        "img" : "https://cyberespaco.github.io/assets/images/aula2.png",
+        "author" : "Ana Paula Falcão",
+        "text" : "Vou ensinar os princípios de um chatbot pois foi um dos meus estudos do meu TCC.",
+        "youtube" : "https://youtu.be/OzWg_FLRzgM",
+        "github" : null,
+        "mail" : null,
+        "link" : null
+    },
+    {
+        "title" : "Bash",
+        "img" : "https://cyberespaco.github.io/assets/images/aula3.png",
+        "author" : "Juliana Dal Piaz",
+        "text" : "Aulas da linguagem Bash para iniciantes: atualizar sistema, baixar pacotes, instalar de um arquivo binário, encontrar padrões em pastas, mover arquivos, abrir aplicativos, alterar configurações padrões do terminal, configurações diversas.",
+        "youtube" : "https://youtu.be/6SUfiZ71F0A",
+        "github" : null,
+        "mail" : null,
+        "link" : null
+    },
+    {
+        "title" : "Flutter",
+        "img" : "https://cyberespaco.github.io/assets/images/aula4.png",
+        "author" : "João Pedro Wieland",
+        "text" : "Flutter é uma das framework mais promissoras da área de desenvolvimento mobile. Com desenvolvimento multiplataforma, em breve também ganhará suporte para gerar páginas web. A simplicidade de desenvolvimento com excelente desempenho faz com que o flutter seja uma ótima maneira pra programar apps. Com dois apps desenvolvidos em flutter já disponíveis na play Store, vou apresentar os conceitos básicos e as principais dificuldades para um iniciante em flutter.",
+        "youtube" : "https://www.youtube.com/watch?v=H6txMbSMrpY",
+        "github" : null,
+        "mail" : null,
+        "link" : null
+    },
+    {
+        "title" : "Bash",
+        "img" : "https://cyberespaco.github.io/assets/images/aula5.png",
+        "author" : "Juliana Dal Piaz",
+        "text" : "Aulas da linguagem Bash para iniciantes: atualizar sistema, baixar pacotes, instalar de um arquivo binário, encontrar padrões em pastas, mover arquivos, abrir aplicativos, alterar configurações padrões do terminal, configurações diversas.",
+        "youtube" : "https://youtu.be/6SUfiZ71F0A",
+        "github" : null,
+        "mail" : null,
+        "link" : null
+    },
+    {
+        "title" : "Gestão de Código-Fonte com Git",
+        "img" : "https://cyberespaco.github.io/assets/images/aula6.png",
+        "author" : "Varlen Pavani Neto",
+        "text" : "Git é um sistema de controle de versões muito utilizado em desenvolvimento de software. É útil para organizar seu código, separar features e, principalmente, desenvolver em conjunto com outras pessoas! Sabe aquele projeto que você e os seus amigos tão querendo tocar desde o começo da quarentena? Com certeza o Git pode ajudar vocês com isso!",
+        "youtube" : "https://www.youtube.com/watch?v=MV9X3oJeCxE",
+        "github" : null,
+        "mail" : null,
+        "link" : null
+    }
+]
