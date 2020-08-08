@@ -48,5 +48,15 @@
         "github" : null,
         "mail" : null,
         "link" : null
+    },
+    {
+        "title" : "VIM Descomplicado",
+        "img" : "https://cyberespaco.github.io/assets/images/aula6.png",
+        "author" : "Kaylani Bochie",
+        "text" : "Git é um sistema de controle de versões muito utilizado em desenvolvimento de software. É útil para organizar seu código, separar features e, principalmente, desenvolver em conjunto com outras pessoas! Sabe aquele projeto que você e os seus amigos tão querendo tocar desde o começo da quarentena? Com certeza o Git pode ajudar vocês com isso!",
+        "youtube" : "https://www.youtube.com/watch?v=MV9X3oJeCxE",
+        "github" : null,
+        "mail" : null,
+        "link" : null
     }
 ]
