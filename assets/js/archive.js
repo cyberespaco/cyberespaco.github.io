@@ -10,7 +10,7 @@ var archivePlaceholder = {
 }
 
 function archiveGet(json, key) {
-    if (key === undefined || key === null || !(key in json)) {
+    if (key === undefined || key === null || !(key in json) || json[key] === undefined || json[key] === null) {
         return archivePlaceholder[key];
     }
     else {
