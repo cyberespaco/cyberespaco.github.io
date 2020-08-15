@@ -34,7 +34,7 @@ function buildArchive(filePath) {
             for (let j=0; j<icons.length; j++) {
                 let icon = icons[j];
 
-                if (!(icon in json)){
+                if (!(icon in json) || json[icon] === null || json[icon] === undefined){
                     continue
                 }
 
