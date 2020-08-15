@@ -1,6 +1,6 @@
 var archivePlaceholder = {
     "title" : "",
-    "img" : null,
+    "img" : "https://cyberespaco.github.io/assets/images/embreve.png",
     "author" : "",
     "text" : "",
     "youtube" : "",
