@@ -2712,11 +2712,11 @@
 	}
 
 	#logo-alt {
-		color: black;
+		color: rgba(255, 255, 255, 0.8);
 		font-family: 'Kredit';
 		font-weight: bolder;
 		font-size: 3.4em;
-		text-shadow: 0.2vmin 0.2vmin rgba(0, 0, 0, 0.33), -0.2vmin -0.2vmin rgba(0, 0, 0, 0.33);
+		text-shadow: 0.2vmin 0.2vmin rgb(0, 200, 255), -0.2vmin -0.2vmin rgb(200, 0, 255);
 	}
 
 	@media screen and (max-width: 1280px) {

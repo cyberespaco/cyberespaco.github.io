@@ -58,5 +58,15 @@
         "github" : null,
         "mail" : null,
         "link" : null
+    },
+    {
+        "title" : "Primeiros Passos na Eletrônica e Programação com Arduino",
+        "img" : "https://cyberespaco.github.io/assets/images/aula6.png",
+        "author" : "Guilherme Araujo Thomaz",
+        "text" : "Arduino é uma plataforma que foi pensada para quem não tem conhecimentos prévios de tecnologia e, talvez, a melhor plataforma pra você que está começando a estudar Engenharia e mexeu muito pouco com eletrônica e programação. Em uma hora você vai acompanhar a construção em tempo real dois pequenos projetos de Arduino usando Tinkercad e Scratch.",
+        "youtube" : null,
+        "github" : null,
+        "mail" : null,
+        "link" : null
     }
 ]
