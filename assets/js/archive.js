@@ -18,6 +18,13 @@ function archiveGet(json, key) {
     }
 }
 
+function getVideoThumbnail(url, num=0) {
+    // Not ready!!
+    let vid = url.match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/).pop()
+
+    return `http://img.youtube.com/vi/${vid}/${num}.jpg`
+}
+
 function buildArchive(filePath) {
     $.getJSON( filePath, function ( array ) {
 
