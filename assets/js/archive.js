@@ -20,13 +20,13 @@ function getVideoThumbnail(url, num=0) {
         return ""
     }
     else if (tagx === undefined) {
-        return `http://img.youtube.com/vi/${tagy}/${num}.jpg`
+        return `https://img.youtube.com/vi/${tagy}/${num}.jpg`
     }
     else if (tagy === undefined) {
-        return `http://img.youtube.com/vi/${tagx}/${num}.jpg`
+        return `https://img.youtube.com/vi/${tagx}/${num}.jpg`
     }
     else {
-        return `http://img.youtube.com/vi/${tagx}/${num}.jpg`
+        return `https://img.youtube.com/vi/${tagx}/${num}.jpg`
     }
 }
 
