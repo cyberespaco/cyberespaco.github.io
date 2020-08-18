@@ -9,20 +9,8 @@ var archivePlaceholder = {
     "link" : ""
 }
 
-function archiveGet(json, key) {
-    if (key === "img" && json["img"] === null && json["youtube"] != undefined && json["youtube"] != null) {
-        return getVideoThumbnail(json["youtube"]);
-    }
-    else if (key === undefined || key === null || !(key in json) || json[key] === undefined || json[key] === null) {
-        return archivePlaceholder[key];
-    }
-    else {
-        return json[key];
-    }
-}
-
 function getVideoThumbnail(url, num=0) {
-    let vid = url.match(/youtube\.com\/watch\?v=([0-9a-zA-Z_]+)|youtu.be\/([0-9a-zA-Z_]+)/).pop()
+    let vid = url.match(/youtube\.com\/watch\?v=([0-9a-zA-Z_]+)|youtu.be\/([0-9a-zA-Z_]+)/)
 
     let tagx = vid[1];
     let tagy = vid[2];
@@ -38,6 +26,18 @@ function getVideoThumbnail(url, num=0) {
     }
     else {
         return `http://img.youtube.com/vi/${tagx}/${num}.jpg`
+    }
+}
+
+function archiveGet(json, key) {
+    if (key === "img" && json["img"] === null && json["youtube"] != undefined && json["youtube"] != null) {
+        return getVideoThumbnail(json["youtube"]);
+    }
+    else if (key === undefined || key === null || !(key in json) || json[key] === undefined || json[key] === null) {
+        return archivePlaceholder[key];
+    }
+    else {
+        return json[key];
     }
 }
 
