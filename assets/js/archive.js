@@ -6,7 +6,8 @@ var archivePlaceholder = {
     "youtube" : "",
     "github" : "",
     "mail" : "",
-    "link" : ""
+    "link" : "",
+    "ppt" : "",
 }
 
 function getVideoThumbnail(url, num=0) {
@@ -80,6 +81,9 @@ function buildArchive(filePath) {
                         HTML = `<li><a href="${archiveGet(json, "mail")}" class="icon fa-envelope-o"><span class="label">Mail</span></a></li>
                         `;
                         break;
+                    case "ppt":
+                        HTML = `<li><a href="${archiveGet(json, "mail")}" class="icon fa-file-powerpoint-o"><span class="label">Mail</span></a></li>
+                        `;
                     default:
                         break;
                 }
