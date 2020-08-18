@@ -4,7 +4,7 @@
         "img" : "https://cyberespaco.github.io/assets/images/aula1.png",
         "author" : "Guilherme Goldman",
         "text" : "O objetivo dessa miniaula é construir uma simulação do espalhamento do coronavírus e a partir disso, apresentar a linguagem de programação P5js. Essa linguagem, que é baseada em Javascript, possibilita diversas soluções visuais intuitivas no front-end. Além disso, serão intoduzidos conceitos básicos de programação como: estrutura de repetição, array e orientação a objeto. Espera-se que os calouros sintam-se motivados e familirizados com os conceitos básicos de programação e quem possui mais experiência possa experimentar e testar as possibilidades que a linguagem oferece.",
-        "youtube" : "https://youtu.be/sJMQr2whPgw",
+        "youtube" : "https://www.youtube.com/watch?v=sJMQr2whPgw",
         "github" : null,
         "mail" : null,
         "link" : null
@@ -14,7 +14,7 @@
         "img" : "https://cyberespaco.github.io/assets/images/aula2.png",
         "author" : "Ana Paula Falcão",
         "text" : "Vou ensinar os princípios de um chatbot pois foi um dos meus estudos do meu TCC.",
-        "youtube" : "https://youtu.be/OzWg_FLRzgM",
+        "youtube" : "https://www.youtube.com/watch?v=OzWg_FLRzgM",
         "github" : null,
         "mail" : null,
         "link" : null
@@ -24,7 +24,7 @@
         "img" : "https://cyberespaco.github.io/assets/images/aula3.png",
         "author" : "Juliana Dal Piaz",
         "text" : "Aulas da linguagem Bash para iniciantes: atualizar sistema, baixar pacotes, instalar de um arquivo binário, encontrar padrões em pastas, mover arquivos, abrir aplicativos, alterar configurações padrões do terminal, configurações diversas.",
-        "youtube" : "https://youtu.be/6SUfiZ71F0A",
+        "youtube" : "https://www.youtube.com/watch?v=6SUfiZ71F0A",
         "github" : null,
         "mail" : null,
         "link" : null
@@ -64,7 +64,7 @@
         "img" : null,
         "author" : "Guilherme Araujo Thomaz",
         "text" : "Arduino é uma plataforma que foi pensada para quem não tem conhecimentos prévios de tecnologia e, talvez, a melhor plataforma pra você que está começando a estudar Engenharia e mexeu muito pouco com eletrônica e programação. Em uma hora você vai acompanhar a construção em tempo real dois pequenos projetos de Arduino usando Tinkercad e Scratch.",
-        "youtube" : null,
+        "youtube" : "https://www.youtube.com/watch?v=RQUYPSWJH94",
         "github" : null,
         "mail" : null,
         "link" : "https://www.tinkercad.com/things/3869oFlaYi5-daring-krunk-bombul/editel?sharecode=6Gh_3_CMC3Oyf4HxoLRQTtvANix5m1rU7bsc2szAMOo"

@@ -10,7 +10,10 @@ var archivePlaceholder = {
 }
 
 function archiveGet(json, key) {
-    if (key === undefined || key === null || !(key in json) || json[key] === undefined || json[key] === null) {
+    if (key === "img" && json["img"] === null && json["youtube"] != undefined && json["youtube"] != null) {
+        return getVideoThumbnail(json["youtube"]);
+    }
+    else if (key === undefined || key === null || !(key in json) || json[key] === undefined || json[key] === null) {
         return archivePlaceholder[key];
     }
     else {
@@ -19,10 +22,23 @@ function archiveGet(json, key) {
 }
 
 function getVideoThumbnail(url, num=0) {
-    // Not ready!!
-    let vid = url.match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/).pop()
+    let vid = url.match(/youtube\.com\/watch\?v=([0-9a-zA-Z_]+)|youtu.be\/([0-9a-zA-Z_]+)/).pop()
 
-    return `http://img.youtube.com/vi/${vid}/${num}.jpg`
+    let tagx = vid[1];
+    let tagy = vid[2];
+
+    if (tagx === undefined && tagy === undefined){
+        return ""
+    }
+    else if (tagx === undefined) {
+        return `http://img.youtube.com/vi/${tagy}/${num}.jpg`
+    }
+    else if (tagy === undefined) {
+        return `http://img.youtube.com/vi/${tagx}/${num}.jpg`
+    }
+    else {
+        return `http://img.youtube.com/vi/${tagx}/${num}.jpg`
+    }
 }
 
 function buildArchive(filePath) {
