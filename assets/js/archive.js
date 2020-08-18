@@ -48,7 +48,7 @@ function buildArchive(filePath) {
         let element = document.getElementById("archive");
         let innerHTML = "";
 
-        let icons = ["github", "youtube", "link", "mail"];
+        let icons = ["github", "youtube", "link", "mail", "ppt"];
 
         for (let i=0; i<array.length; i++) {
             let json = array[i];
