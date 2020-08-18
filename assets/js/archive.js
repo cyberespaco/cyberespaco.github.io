@@ -82,7 +82,7 @@ function buildArchive(filePath) {
                         `;
                         break;
                     case "ppt":
-                        HTML = `<li><a href="${archiveGet(json, "mail")}" class="icon fa-file-powerpoint-o"><span class="label">Mail</span></a></li>
+                        HTML = `<li><a href="${archiveGet(json, "ppt")}" class="icon fa-file-powerpoint-o"><span class="label">Presentation</span></a></li>
                         `;
                     default:
                         break;
