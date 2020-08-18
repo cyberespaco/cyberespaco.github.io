@@ -2029,7 +2029,9 @@
 
 				.feature-grid .feature .image img {
 					display: inline;
-					max-width: 100%;
+					object-fit: cover;
+					width: 176px;
+					height: 176px;
 				}
 
 			.feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
