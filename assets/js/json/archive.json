@@ -70,5 +70,12 @@
         "github" : null,
         "mail" : null,
         "link" : "https://www.tinkercad.com/things/3869oFlaYi5-daring-krunk-bombul/editel?sharecode=6Gh_3_CMC3Oyf4HxoLRQTtvANix5m1rU7bsc2szAMOo"
+    },
+    {
+        "title" : "A Segunda Linguagem de Programação",
+        "img" : "",
+        "author" : "Pedro Maciel Xavier",
+        "text" : "Salve Alan Turing! Ateu, homossexual, pai da Ciência da Computação! Antes mesmo que ele brilhasse, Ada Lovelace, filha do excêntrico Lorde Byron, foi a primeira programadora. Será? Euclides já havia descrito o algoritmo recursivo do MDC em seu livro _Elementos_, escrito em torno de 300 a.C. Acontece que dois mil anos antes dele, músicos sumérios registraram, em escrita cuneiforme sobre uma tábua de pedra na cidade de Nippur, um hino aos seus deuses. Com certeza muito antes disso alguma avó passou adiante a sua irresistível receita de bolo formigueiro e por isso o assunto de hoje é sobre *A Segunda Linguagem de Programação*. Vamos discutir alguns elementos da notação musical moderna, a partitura, sob a perspectiva dos programadores que somos, ou que nos tornaremos. Essa aula procura introduzir conceitos básicos de programação (em Python) através do processo musical e deve ser interessante tanto para quem está começando quanto para os programadores mais experientes da praça.",
+        "github" : "https://github.com/pedromxavier/cyber"
     }
 ]
