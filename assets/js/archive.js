@@ -115,5 +115,7 @@ function buildArchive(filePath) {
                 ${innerHTML}
             </div>
             `;
+
+        setFigure(figurePath);
     });
 }

@@ -36,6 +36,6 @@ function buildFeedback(filePath) {
             `;
 
         // Set Figure Placeholders.
-		setFigures(figuresPath);
+		setFigures(figuresPath, figuresMany);
     });
 }

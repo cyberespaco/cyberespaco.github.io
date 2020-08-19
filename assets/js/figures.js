@@ -1,4 +1,5 @@
 var figuresPath = "https://cyberespaco.github.io/assets/images/vaporwave/img";
+var figuresMany = 9;
 
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -29,13 +30,16 @@ function setFigures(filePath, n) {
             photos[i].src = figures[i % n];
         }
     }
+}
 
+var figurePath = "https://cyberespaco.github.io/assets/images/embreve.png";
+
+function setFigure(filePath) {
     var courses = document.getElementsByClassName("course-image");
-    var course_figure = 'https://cyberespaco.github.io/assets/images/embreve.png';
 
     for(var i=0; i<courses.length; i++) {
         if (courses[i].src === "") {
-            courses[i].src = course_figure;
+            courses[i].src = filePath;
         }
     }
 }
