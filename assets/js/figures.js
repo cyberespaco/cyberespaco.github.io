@@ -1,6 +1,5 @@
 var figuresPath = "https://cyberespaco.github.io/assets/images/vaporwave/img";
 
-
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -18,22 +17,16 @@ function getPhotos(filePath, n) { // -> Array
     return figures;
 }
 
-function setFigures(filePath) {
+function setFigures(filePath, n) {
     var photos = document.getElementsByClassName("photo-image");
 
-    var figures = getPhotos(filePath, photos.length);
+    var figures = getPhotos(filePath, n);
     // Shuffles them for some randomness
     figures = shuffle(figures);
     
-    var j = 0;
     for(let i=0; i<photos.length; i++) {
         if (photos[i].src === "") {
-            try {
-                photos[i].src = figures[j++];
-            } catch (e) {
-                j = 0;
-                photos[i].src = figures[j++];
-            }
+            photos[i].src = figures[i % n];
         }
     }
 
