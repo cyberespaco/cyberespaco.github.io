@@ -66,7 +66,7 @@ function buildArchive(filePath) {
 
                 switch(icon) {
                     case "github":
-                        HTML = `<li><a href="${archiveGet(json, "github")}" class="icon fa-github"><span class="label">Github</span></a></li>
+                        HTML = `<li><a href="${archiveGet(json, "github")}" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
                         `;
                         break;
                     case "youtube":
@@ -74,15 +74,15 @@ function buildArchive(filePath) {
                         `;
                         break;
                     case "link":
-                        HTML = `<li><a href="${archiveGet(json, "link")}" class="icon fa-link"><span class="label">Link</span></a></li>
+                        HTML = `<li><a href="${archiveGet(json, "link")}" target="_blank" class="icon fa-link"><span class="label">Link</span></a></li>
                         `;
                         break;
                     case "mail":
-                        HTML = `<li><a href="${archiveGet(json, "mail")}" class="icon fa-envelope-o"><span class="label">Mail</span></a></li>
+                        HTML = `<li><a href="${archiveGet(json, "mail")}" target="_blank" class="icon fa-envelope-o"><span class="label">Mail</span></a></li>
                         `;
                         break;
                     case "ppt":
-                        HTML = `<li><a href="${archiveGet(json, "ppt")}" class="icon fa-file-powerpoint-o"><span class="label">Presentation</span></a></li>
+                        HTML = `<li><a href="${archiveGet(json, "ppt")}" target="_blank" class="icon fa-file-powerpoint-o"><span class="label">Presentation</span></a></li>
                         `;
                     default:
                         break;
