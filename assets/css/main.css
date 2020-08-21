@@ -2708,6 +2708,7 @@
 	@media screen and (max-width: 480px) {
 
 		#logo{
+			font-weight: normal;
 			font-size: 2.7em;
 		}
 
@@ -2734,7 +2735,6 @@
 		#logo-alt{
 			font-size: 2.7em;
 			font-weight: normal;
-			text-shadow: none;
 		}
 
 	}
