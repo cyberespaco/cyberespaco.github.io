@@ -34,7 +34,7 @@ function archiveGet(json, key) {
     if (key === "img" && json["img"] === null && json["youtube"] != undefined && json["youtube"] != null) {
         return getVideoThumbnail(json["youtube"]);
     }
-    else if (key === undefined || key === null || !(key in json) || json[key] === undefined || json[key] === null) {
+    else if (!(key in json) || json[key] === undefined || json[key] === null) {
         return archivePlaceholder[key];
     }
     else {
