@@ -76,6 +76,8 @@
         "img" : null,
         "author" : "Pedro Maciel Xavier",
         "text" : "Nessa aula vamos apresentar as principais características das linguagens de programação através da música. Será um curso para todos os graus de familiaridade com programação. Veremos desde operações aritméticas básicas e laços de repetição até operações em vetores com numpy e o projeto de um pequeno compilador musical. Tudo isso regado em teoria e prática musical, da notação até a física do som.",
-        "github" : "https://github.com/pedromxavier/cyber"
+        "github" : "https://github.com/pedromxavier/cyber",
+        "youtube" : "https://youtu.be/ZMJspCUnxGw",
+        "ppt" : "https://drive.google.com/file/d/1AfszG_1AvE-b-jjak8X7errqnCQ87JMR/view?usp=sharing" 
     }
 ]
