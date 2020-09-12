@@ -79,5 +79,19 @@
         "github" : "https://github.com/pedromxavier/cyber",
         "youtube" : "https://youtu.be/ZMJspCUnxGw",
         "ppt" : "https://drive.google.com/file/d/1AfszG_1AvE-b-jjak8X7errqnCQ87JMR/view?usp=sharing" 
+    },
+    {
+        "title" : "Primeiros Passos no Docker",
+        "img" : null,
+        "author" : "Varlen Pavani Neto",
+        "text" : "Você quer trabalhar numa empresa de tech e não sabe ou ainda não ouviu falar em Docker? Então essa é sua chance de mergulhar nessa tecnologia que tem revolucionado os produtos no mercado de software mundial. Docker é um dos 10 mandamentos de todo fullstack web developer.",
+        "youtube" : "https://youtu.be/gnZQjLIohaU"
+    },
+    {
+        "title" : "Introdução a Banco de Dados",
+        "img" : null,
+        "author" : "Luiz Carlos Aguiar Carrion",
+        "text" : "Quer saber como funcionam bancos de dados e quais estruturas utilizar? Quer trabalhar com análise de informações, mas não faz ideia de como armazená-las ou obtê-las? Então, essa é sua chance de mergulhar nessa tecnologia tão necessária em desenvolvimento de sistemas e plataformas. Saber banco de dados vai te ajudar com projetos pessoais e experiências profissionais.",
+        "youtube": null
     }
 ]
