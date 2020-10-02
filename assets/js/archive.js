@@ -11,7 +11,7 @@ var archivePlaceholder = {
 }
 
 function getVideoThumbnail(url, num=0) {
-    let vid = url.match(/youtube\.com\/watch\?v=([0-9a-zA-Z_\-]+)|youtu.be\/([0-9a-zA-Z_]+)/)
+    let vid = url.match(/youtube\.com\/watch\?v=([0-9a-zA-Z_\-]+)|youtu.be\/([0-9a-zA-Z_\-]+)/)
 
     let tagx = vid[1];
     let tagy = vid[2];
